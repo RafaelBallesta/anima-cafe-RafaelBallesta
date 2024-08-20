@@ -1,10 +1,11 @@
 import App from "../App";
 import FilaProducto from "./FilaProducto";
 import FilaCategoria from "./FilaCategoria";
+import '../PagesCSS/AnimaCafe.css'
 
 export default function TablaProductos({ productos }) {
     return (
-        <table>
+        <table className="anima-cafe-container">
             <thead>
                 <tr>
                     <th>Nombre</th>
