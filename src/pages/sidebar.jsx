@@ -1,6 +1,6 @@
 export const Sidebar = () => {
     return (
-        <div style={{width: "200px", height: "100vh" , padding: "20px",  backgroundColor: "skyblue"}}>
+        <div style={{width: "200px", height: "90vh" , padding: "20px",  backgroundColor: "skyblue"}}>
             <h1>Menú</h1>
             <ul>
                 <li><a href="/">Inicio</a></li>
